@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class b {
     public static void main(String[] args) {
         int num, arg;
-        for (num = 2; num 0; arg++){
+        for (num = 2; num<0; arg++){
             if (arg == num)
                 System.out.print(arg + "\t");
         }
