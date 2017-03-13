@@ -3,10 +3,12 @@ import java.util.Scanner;
 /**
  * Created by nikitinmd.18 on 13.03.2017.
  */
-public class a {
+public class b {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        System.out.println(a+" "+a*a+" "+a*a*a+" "+a*a*a*a);
+        int num, arg;
+        for (num = 2; num 0; arg++){
+            if (arg == num)
+                System.out.print(arg + "\t");
+        }
     }
 }
